@@ -1,0 +1,29 @@
+html {
+  background-color: rgb(246, 171, 186);
+}
+
+div {
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(251, 30, 96);
+  width: 50%;
+  height: 50%;
+  margin: 200px;
+  outline: rgb(0, 255, 217) dotted 25px;
+  outline-offset: 10px;
+  text-align: center;
+}
+div:hover {
+  outline-offset: 35px;
+  width: 500px;
+  transform: rotateZ(60deg);
+  transition: width 4s, height 4s, transform 4s;
+  -webkit-transition: width 4s, height 4s, transform 4s;
+  -moz-transition: width 4s, height 4s, transform 4s;
+  -ms-transition: width 4s, height 4s, transform 4s;
+  -o-transition: width 4s, height 4s, transform 4s;
+  -webkit-transform: rotateZ(60deg);
+  -moz-transform: rotateZ(60deg);
+  -ms-transform: rotateZ(60deg);
+  -o-transform: rotateZ(60deg);
+}
